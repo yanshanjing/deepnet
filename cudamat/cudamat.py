@@ -1608,7 +1608,7 @@ def vdot(m1, m2):
 
 def softmax(mat, target = None):
     """
-    Apply cos to each element of the matrix mat.
+    Apply softmax to each element of the matrix mat.
     """
 
     if target:
